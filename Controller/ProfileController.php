@@ -170,7 +170,7 @@ class ProfileController extends AbstractController
             <body>
                 <span>Bonjour $username,</span>
                 <p>
-                    Afin de finaliser votre nouvelle adresse mail sur le site So D'Avesnois, 
+                    Afin de finaliser votre nouvelle adresse mail sur le site Witcher-JDR, 
                     <br>
                     merci de cliquer <a href=\"$url\">sur ce lien</a> pour vérifier votre adresse email.
                 </p>
@@ -260,8 +260,8 @@ class ProfileController extends AbstractController
                 exit();
             }
 
-        } else {
-
+        }
+        else {
             $_SESSION['error'] = ["Les mots de passe ne corespondent pas"];
             self::userInfo();
             exit();

@@ -46,12 +46,12 @@ class ActivityController extends AbstractController
                         header("Location: index.php?c=profile");
                         exit();
                     }
-
                 }
 
                 if(isset($_FILES['url']) && $_FILES['url']['error'] === 0){
-                    if((int)$_FILES['url']['size'] <= (3 * 1024 * 1024)){ // maximum size = 3 mo
+                    if((int)$_FILES['url']['size'] <= (7 * 1024 * 1024)){ // maximum size = 7 mo
                         $tmp_name = $_FILES['url']['tmp_name'];
+
                         $name = $this->randomName($_FILES['url']['name']);
                         $activity->setLink($name);
                         move_uploaded_file($tmp_name, 'uploads_pdf/' . $name);
@@ -163,7 +163,7 @@ class ActivityController extends AbstractController
                 }
 
                 if(isset($_FILES['url']) && $_FILES['url']['error'] === 0){
-                    if((int)$_FILES['url']['size'] <= (3 * 1024 * 1024)){ // maximum size = 3 mo
+                    if((int)$_FILES['url']['size'] <= (7 * 1024 * 1024)){ // maximum size = 7 mo
                         $tmp_name = $_FILES['url']['tmp_name'];
                         $name = $activity->getLink() === null ?
                             $this->randomName($_FILES['url']['name']) : $activity->getLink();

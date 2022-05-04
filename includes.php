@@ -7,6 +7,7 @@ require __DIR__ . "/Model/Entity/Activity.php";
 require __DIR__ . "/Model/Entity/User.php";
 require __DIR__ . "/Model/Entity/Sticker.php";
 require __DIR__ . "/Model/Entity/link.php";
+require __DIR__ . "/Model/Entity/Comment.php";
 
 require __DIR__ . "/Model/DB.php";
 
@@ -27,4 +28,6 @@ require __DIR__ . "/Controller/ProfileController.php";
 require __DIR__ . "/Controller/UserController.php";
 require __DIR__ . "/Controller/StickerController.php";
 
-require __DIR__ . "/Routeur.php"; 
+require __DIR__ . "/Routeur.php";
+
+session_start();

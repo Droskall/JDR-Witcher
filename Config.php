@@ -32,6 +32,11 @@ class Config
 
     // avatar list
     public const AVATAR_LIST = [
+        'wolf_school.png',
+        'viper_school.png',
+        'cat_school.png',
+        'bear_school.png',
+        'griffin_school.png',
         'Jaskier.jpg',
         'eredin.jpg',
         'ciri.jpg',

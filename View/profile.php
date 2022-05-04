@@ -9,7 +9,7 @@
                         <div>
                             <img class="avatar" src="/assets/img/avatar/<?= $data['avatar'] ?>" alt="user's avatar">
                         </div>
-                        <button class="change_avatar"><a href="/index.php?c=profile&a=avatar-list">changer d'avatar</a></button>
+                        <button class="change_avatar"><a href="/index.php?c=profile&a=avatar-list">Changer d'avatar</a></button>
 
                         <p>Nom / Pseudo : <?= $_SESSION['user']->getUsername() ?></p>
                         <p>Email : <?= $_SESSION['user']->getEmail() ?></p>

@@ -69,9 +69,11 @@ if(!isset($color)) {
 ?>
 <footer style="background-color: <?= $color ?>">
     <div class="flex">
+
         <div>
-            <h3>Nous contacter</h3>
-            <address></address>
+            <h3>Les Jeux de Role</h3>
+            <p>Vendredi et Samedi de 20h30 à 00h00</p>
+            <p>Dimanche de 13h30 à 17h30</p>
         </div>
 
         <div>
@@ -81,13 +83,12 @@ if(!isset($color)) {
         </div>
 
         <div>
-            <h3>Les Jeux de Role</h3>
-            <p>Vendredi et Samedi de 20h30 à 00h00</p>
-            <p>Dimanche de 13h30 à 17h30</p>
+            <h3>Nous contacter</h3>
+            <address></address>
         </div>
+
     </div>
 
-    <p>&copy</p>
 </footer>
 
 <script src="https://kit.fontawesome.com/25d98733ec.js" crossorigin="anonymous"></script>

@@ -165,7 +165,7 @@ class ConnectionController extends AbstractController
             <body>
                 <span>Bonjour $username,</span>
                 <p>
-                    Afin de finaliser votre inscription sur le site Witcher JDR, 
+                    Afin de finaliser votre inscription sur le site Witcher-JDR, 
                     <br>
                     merci de cliquer <a href=\"$url\">sur ce lien</a> pour vérifier votre adresse email.
                 </p>
@@ -256,7 +256,7 @@ class ConnectionController extends AbstractController
             $message = "
         <html lang='fr'>
             <head>
-                <title>Changement de mot de passe pour votre compte Witcher JDR</title>
+                <title>Changement de mot de passe pour votre compte Witcher-JDR</title>
             </head>
             <body>
                 <span>Bonjour $username,</span>

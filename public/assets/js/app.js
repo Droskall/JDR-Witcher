@@ -190,8 +190,6 @@ if (changePassword) {
 let addActBtn = document.getElementById('addActBtn');
 const title = document.querySelector('#add-activity input[name=title]');
 const text = document.querySelector('#add-activity textarea');
-const place = document.querySelector('#add-activity input[name=location]');
-const date = document.querySelector('#schedules');
 
 if(addActBtn){
     addActBtn.addEventListener('click', function (e){
@@ -202,14 +200,6 @@ if(addActBtn){
         else if (text.value === ""){
             e.preventDefault();
             message("Merci de remplir le champ description", container);
-        }
-        else if(place.value === ""){
-            e.preventDefault();
-            message("Merci de remplir le champ lieu", container);
-        }
-        else if(date.value === ""){
-            e.preventDefault();
-            message("Merci de remplir le champ date et horaires", container);
         }
     })
 }

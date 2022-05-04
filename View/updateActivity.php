@@ -36,8 +36,8 @@
                     </div>
                     <textarea name="content" id="content" cols="40" rows="10"><?= $value->getDescription() ?></textarea>*
                     <div>
-                        <label for="url">Lien :</label>
-                        <input type="url" id="url" name="url" value="<?= $value->getLink() ?>">
+                        <label for="url">PDF :</label>
+                        <input type="file" name="url" accept="application/pdf">
                     </div>
                     <div>
                         <input type="submit" name="updateAct">
