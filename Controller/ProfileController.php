@@ -165,7 +165,7 @@ class ProfileController extends AbstractController
         $message = "
         <html lang='fr'>
             <head>
-                <title>Vérification de votre compte So D'Avesnois</title>
+                <title>Vérification de votre compte Witcher JDR</title>
             </head>
             <body>
                 <span>Bonjour $username,</span>
