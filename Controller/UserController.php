@@ -67,7 +67,7 @@ class UserController extends AbstractController
     public function deleteself(){
 
         $userManager = new UserManager();
-        if ($userManager->isLastAdmin() === '1') {
+        if ($userManager->isLastAdmin() === '0') {
             $_SESSION['error'] =  ["Vous ne pouvez pas supprimer votre compte tant qu'un autre admin n'a pas été créé"];
             header('Location: /index.php?c=profile');
             exit();

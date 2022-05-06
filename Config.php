@@ -11,7 +11,7 @@ class Config
     public const PASSWORD = "";
 
     // send mail
-    public const APP_URL = 'http://localhost:8000';
+    public const APP_URL = 'http://jdr-witcher.droskall.fr/';
 
     //sticker list
     public const STICKER_TYPE = [

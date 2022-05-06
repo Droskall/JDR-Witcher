@@ -3,7 +3,6 @@
 namespace Model\Manager;
 
 use Model\Entity\Activity;
-use Model\Entity\Comment;
 use Model\Entity\Sticker;
 use Model\Manager\Traits\ManagerTrait;
 
@@ -11,7 +10,7 @@ class ActivityManager {
 
     use ManagerTrait;
 
-    public const TABLE = 'witcher_jdr.activity';
+    public const TABLE = 'activity';
 
     /**
      * Return all items.

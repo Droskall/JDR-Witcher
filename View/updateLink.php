@@ -12,10 +12,10 @@
                     <div>
                         <label for="link-type">Type</label>
                         <select name="link-type" id="link-type">
-                            <option value="health">Sante</option>
-                            <option value="mobility">Mobilité</option>
-                            <option value="help">Aide</option>
-                            <option value="training">Formation</option>
+                            <option value="discord">Discord</option>
+                            <option value="useful">Liens utiles</option>
+                            <option value="video">Vidéos et Stream</option>
+                            <option value="notice">Mentions Légales</option>
                         </select>
                     </div>
                     <div>
